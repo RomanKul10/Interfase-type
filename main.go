@@ -56,6 +56,6 @@ func main() {
 
 }
 func Riddle(a Animal) {
-	riddle := fmt.Sprintf(`This animal says %s and has %d legs. What animal is it?`, a.Says(), a.HowManyLegs)
+	riddle := fmt.Sprintf(`This animal says %s and has %d legs. What animal is it?`, a.Says(), a.HowManyLegs())
 	fmt.Println(riddle)
 }
